@@ -1,7 +1,7 @@
 apiVersion: kyverno.io/v1
 kind: ClusterPolicy
 metadata:
-  name: require-run-as-non-root4
+  name: require-run-as-non-root5
 spec:
   validationFailureAction: Enforce
   background: true
